@@ -1,0 +1,80 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #222;
+    text-align: center;
+    background-repeat: x-repeat
+}
+
+h2 {
+    color: #666;
+    font-family: monospace;
+}
+
+canvas {
+    border: 3px solid #d3d3d3;
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 70%;
+    height: auto;
+}
+
+.background {
+    background: #34a6fb;
+    border-spacing: 0
+}
+
+.background td {
+    padding: 0
+}
+
+.lives {
+    background: #ff8c00
+}
+
+.score {
+    color: #fff;
+    font-size: 2rem;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px #d3d3d3
+}
+
+.lava {
+    background: #ff6464
+}
+
+.wall {
+    background: #fff
+}
+
+.actor {
+    position: absolute
+}
+
+.coin {
+    background: #f1e559
+}
+
+.player {
+    background: #404040
+}
+
+.lost .player {
+    background: #a04040
+}
+
+.won .player {
+    box-shadow: -4px -7px 8px #fff, 4px -7px 8px #fff
+}
+
+.game {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 650px
+}
